@@ -7,6 +7,78 @@
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="bg-gray-50 text-gray-800 font-sans">
-  <!-- Já compartilhei o template HTML — basta copiar e colar aqui -->
+
+  <!-- Cabeçalho -->
+  <header class="bg-white shadow-md sticky top-0 z-50">
+    <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
+      <div>
+        <h1 class="text-xl font-bold text-indigo-700">SM Recrutamento e Talentos</h1>
+        <p class="text-sm text-gray-600">Conectando pessoas e oportunidades com empatia e estratégia</p>
+      </div>
+      <nav class="space-x-4">
+        <a href="#sobre" class="hover:text-indigo-600">Sobre</a>
+        <a href="#servicos" class="hover:text-indigo-600">Serviços</a>
+        <a href="#contato" class="hover:text-indigo-600">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="bg-indigo-600 text-white text-center py-20">
+    <h2 class="text-4xl font-bold mb-4">Recrutamento humanizado, inclusivo e estratégico</h2>
+    <p class="text-lg">Unimos empresas e talentos com propósito</p>
+    <a href="#contato" class="mt-6 inline-block bg-white text-indigo-600 font-semibold py-2 px-6 rounded-lg">Fale Conosco</a>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="max-w-5xl mx-auto py-16 px-4">
+    <h3 class="text-2xl font-bold text-indigo-700 mb-4">Quem Somos</h3>
+    <p class="text-gray-700 leading-relaxed">
+      A SM Recrutamento e Talentos é uma consultoria especializada em Recrutamento e Seleção com foco em processos humanizados e inclusivos. 
+      Nosso propósito é conectar profissionais aos valores das organizações, promovendo relações de trabalho mais autênticas e sustentáveis.
+    </p>
+  </section>
+
+  <!-- Serviços -->
+  <section id="servicos" class="bg-gray-100 py-16 px-4">
+    <div class="max-w-5xl mx-auto">
+      <h3 class="text-2xl font-bold text-indigo-700 mb-6">Nossos Serviços</h3>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h4 class="font-semibold text-lg">🔍 Recrutamento e Seleção</h4>
+          <p class="text-sm">Condução completa e personalizada de processos seletivos.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg">📄 Currículo & LinkedIn</h4>
+          <p class="text-sm">Consultoria para profissionais que buscam recolocação ou destaque no mercado.</p>
+        </div>
+        <div>
+          <h4 class="font-semibold text-lg">📢 Divulgação de Vagas</h4>
+          <p class="text-sm">Apoio na atração de talentos com foco em diversidade e inclusão.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="bg-indigo-50 py-16 px-4">
+    <div class="max-w-5xl mx-auto text-center">
+      <h3 class="text-2xl font-bold text-indigo-700 mb-4">Entre em Contato</h3>
+      <p class="mb-4">Estamos prontas para encontrar o talento ideal para sua empresa!</p>
+      <p class="text-gray-700">
+        📧 E-mail: <a href="mailto:rh.saionara@gmail.com" class="text-indigo-600 underline">rh.saionara@gmail.com</a><br />
+        📱 WhatsApp: <a href="https://wa.me/5531982284792" class="text-indigo-600 underline" target="_blank">(31) 98228-4792</a>
+      </p>
+      <a href="https://wa.me/5531982284792" target="_blank" class="inline-block mt-6 bg-indigo-600 text-white py-2 px-6 rounded-lg hover:bg-indigo-700">
+        Falar via WhatsApp
+      </a>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="bg-white border-t py-6 text-center text-sm text-gray-600">
+    © 2025 SM Recrutamento e Talentos · Todos os direitos reservados
+  </footer>
+
 </body>
 </html>
